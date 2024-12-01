@@ -65,6 +65,12 @@ Route::prefix('/')->name('front.')->group(function () {
 |--------------------------------------------------------------------------
 */
 Route::prefix('/admin')->name('admin.')->group(function () {
-    #--------------------------------INDEX PAGE
-    Route::view('', 'admin.index')->name('index');
+
+    Route::middleware('admin')->group(function () {
+        #--------------------------------INDEX PAGE
+        Route::view('', 'admin.index')->name('index');
+    });
+
+    #--------------------------------LOGIN PAGE
+    Route::view('login', 'admin.auth.login')->middleware('guest:admin')->name('login');
 });
