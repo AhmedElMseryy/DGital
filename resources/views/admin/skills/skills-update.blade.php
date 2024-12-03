@@ -30,7 +30,9 @@
                     <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
                         Close
                     </button>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">
+                        <x-loading-state name="Update"></x-loading-state>
+                    </button>
                 </div>
             </form>
         </div>
