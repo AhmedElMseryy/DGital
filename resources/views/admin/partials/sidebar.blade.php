@@ -73,6 +73,14 @@
                 </a>
             </li>
 
+            <!-- Skills -->
+            <li class="menu-item @yield('skills-active')">
+                <a href="{{ route('admin.skills') }}" class="menu-link">
+                    <i class="menu-icon tf-icons bx bx-detail"></i>
+                    <div data-i18n="Analytics">Skills</div>
+                </a>
+            </li>
+
 
         </ul>
     </aside>
