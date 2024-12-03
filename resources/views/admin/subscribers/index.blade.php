@@ -18,8 +18,8 @@
                 @livewire('admin.subscribers.subscribers-data')
                 <!--***************************************************-->
             </div>
-            <!--************ Skills Update & Delete & Show ************-->
-            {{-- @livewire('admin.subscribers.subscribers-delete') --}}
+            <!--*********************** Delete  ***********************-->
+            @livewire('admin.subscribers.subscribers-delete')
             <!--*******************************************************-->
         </div>
 

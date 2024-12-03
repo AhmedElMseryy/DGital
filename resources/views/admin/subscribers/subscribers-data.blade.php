@@ -35,7 +35,7 @@
 
                                         <!-- Delete -->
                                         <a class="dropdown-item" href="#"
-                                            wire:click.prevent="$dispatch('skillDelete',{ id: {{ $record->id }} })">
+                                            wire:click.prevent="$dispatch('subscriberDelete',{ id: {{ $record->id }} })">
                                             <i class="bx bx-trash me-1"></i>
                                             Delete
                                         </a>

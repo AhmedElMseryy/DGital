@@ -21,7 +21,7 @@ class SubscribersData extends Component
 
     public function render()
     {
-        $data = Subscriber::where('email', 'like', '%' . $this->search . '%')->paginate(1);
+        $data = Subscriber::where('email', 'like', '%' . $this->search . '%')->paginate(10);
         return view('admin.subscribers.subscribers-data', get_defined_vars());
     }
 }
