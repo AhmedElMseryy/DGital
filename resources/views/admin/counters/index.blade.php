@@ -15,7 +15,7 @@
         <div class="card mb-4">
             <div class="card-body">
                 <!--******************* Skills Data *******************-->
-                {{-- @livewire('admin.subscribers.subscribers-data') --}}
+                @livewire('admin.counters.counters-data')
                 <!--***************************************************-->
             </div>
             <!--*********************** Delete  ***********************-->
