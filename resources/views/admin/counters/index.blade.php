@@ -27,10 +27,10 @@
                 @livewire('admin.counters.counters-data')
                 <!--***************************************************-->
             </div>
-            <!--*********************** Update & Delete  ***********************-->
+            <!--******************* Update & Delete  *******************-->
             @livewire('admin.counters.counters-update')
-            {{-- @livewire('admin.counters.counters-delete') --}}
-            <!--*******************************************************-->
+            @livewire('admin.counters.counters-delete')
+            <!--********************************************************-->
         </div>
 
     </div>
