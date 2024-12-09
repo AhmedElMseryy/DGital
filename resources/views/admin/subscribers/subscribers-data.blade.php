@@ -19,7 +19,7 @@
                     @foreach ($data as $record)
                         <tr>
                             <!-- EMAIL -->
-                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i>
+                            <td>
                                 <strong>{{ $record->email }}</strong>
                             </td>
 
