@@ -24,7 +24,7 @@
         <div class="card mb-4">
             <div class="card-body">
                 <!--******************* Skills Data *******************-->
-                {{-- @livewire('admin.services.services-data') --}}
+                @livewire('admin.services.services-data')
                 <!--***************************************************-->
             </div>
             <!--******************* Update & Delete  *******************-->
