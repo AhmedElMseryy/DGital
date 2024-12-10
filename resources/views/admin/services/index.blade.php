@@ -16,7 +16,7 @@
             </button>
 
             <!--****************** Skills Create ******************-->
-            {{-- @livewire('admin.services.services-create') --}}
+            @livewire('admin.services.services-create')
             <!--***************************************************-->
         </div>
 
