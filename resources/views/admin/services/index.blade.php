@@ -27,10 +27,11 @@
                 @livewire('admin.services.services-data')
                 <!--***************************************************-->
             </div>
-            <!--******************* Update & Delete  *******************-->
-            {{-- @livewire('admin.services.services-update') --}}
+            <!--******************* Update & Delete & Show *******************-->
+            @livewire('admin.services.services-update')
             {{-- @livewire('admin.services.services-delete') --}}
-            <!--********************************************************-->
+            {{-- @livewire('admin.services.services-show') --}}
+            <!--**************************************************************-->
         </div>
 
     </div>
