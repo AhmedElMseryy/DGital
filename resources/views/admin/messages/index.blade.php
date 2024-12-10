@@ -20,7 +20,7 @@
             </div>
             <!--******************* Delete & Show *******************-->
             {{-- @livewire('admin.messages.messages-delete') --}}
-            {{-- @livewire('admin.messages.messages-show') --}}
+            @livewire('admin.messages.messages-show')
             <!--**************************************************************-->
         </div>
 
