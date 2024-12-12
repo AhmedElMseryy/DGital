@@ -27,7 +27,7 @@
                 <!--*************************************************-->
             </div>
             <!--******************* Delete & edit *******************-->
-            {{-- @livewire('admin.categories.categories-edit') --}}
+            @livewire('admin.categories.categories-update')
             {{-- @livewire('admin.categories.categories-delete') --}}
             <!--*****************************************************-->
         </div>
