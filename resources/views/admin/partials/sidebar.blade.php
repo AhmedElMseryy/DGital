@@ -121,6 +121,14 @@
                 </a>
             </li>
 
+            <!-- Projects -->
+            <li class="menu-item @yield('projects-active')">
+                <a href="{{ route('admin.projects') }}" class="menu-link">
+                    <i class="menu-icon tf-icons bx bx-data"></i>
+                    <div data-i18n="Analytics">Projects</div>
+                </a>
+            </li>
+
 
         </ul>
     </aside>
