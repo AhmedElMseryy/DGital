@@ -28,7 +28,7 @@
             </div>
             <!--******************* Delete & edit *******************-->
             @livewire('admin.categories.categories-update')
-            {{-- @livewire('admin.categories.categories-delete') --}}
+            @livewire('admin.categories.categories-delete')
             <!--*****************************************************-->
         </div>
 
