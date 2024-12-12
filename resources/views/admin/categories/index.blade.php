@@ -15,7 +15,7 @@
             </button>
 
             <!--******************* categories Create *******************-->
-            {{-- @livewire('admin.categories.categories-create') --}}
+            @livewire('admin.categories.categories-create')
             <!--***************************************************-->
         </div>
 
