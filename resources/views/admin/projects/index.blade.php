@@ -28,7 +28,7 @@
             </div>
             <!--******************* Delete & edit *******************-->
             @livewire('admin.projects.projects-update')
-            {{-- @livewire('admin.projects.projects-delete') --}}
+            @livewire('admin.projects.projects-delete')
             <!--*****************************************************-->
         </div>
 

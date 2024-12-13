@@ -50,12 +50,6 @@
                                             Delete
                                         </a>
 
-                                        <!-- Show -->
-                                        <a class="dropdown-item" href="#"
-                                            wire:click.prevent="$dispatch('projectShow',{ id: {{ $record->id }} })">
-                                            <i class="bx bx-show-alt me-1"></i>
-                                            Show
-                                        </a>
                                     </div>
                                 </div>
                             </td>
