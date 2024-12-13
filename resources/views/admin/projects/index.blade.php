@@ -15,7 +15,7 @@
             </button>
 
             <!--******************* projects Create *******************-->
-            {{-- @livewire('admin.projects.projects-create') --}}
+            @livewire('admin.projects.projects-create')
             <!--***************************************************-->
         </div>
 

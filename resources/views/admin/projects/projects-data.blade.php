@@ -23,10 +23,10 @@
                             <td>
                                 <strong>{{ $record->name }}</strong>
                             </td>
-                            <!-- PROGRESS -->
+                            <!-- CATEGORY -->
                             <td>{{ $record->category?->name }}</td>
                             <!-- IMAGE -->
-                            <img src="{{ asset($record->image) }}" width="50px" height="50px">
+                            <td><img src="{{ asset($record->image) }}" width="50px" height="50px"></td>
 
                             <!-- ACTIONS -->
                             <td>
