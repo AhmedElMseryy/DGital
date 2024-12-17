@@ -93,6 +93,9 @@ Route::prefix('/admin')->name('admin.')->group(function () {
 
         #--------------------------------PROJECTS PAGE
         Route::view('/projects', 'admin.projects.index')->name('projects');
+
+        #--------------------------------TESTIMONIALS PAGE
+        Route::view('/testimonials', 'admin.testimonials.index')->name('testimonials');
     });
 
     #--------------------------------LOGIN PAGE

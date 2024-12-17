@@ -1,4 +1,4 @@
-<x-edit-modal title="Edit Project">
+<x-edit-modal title="Edit Testimonial">
     <!-- NAME -->
     <div class="col-md-6 mb-0">
         <label class="form-label">Name</label>
@@ -7,34 +7,20 @@
 
     </div>
 
-    <!-- LINK -->
+    <!-- POSITION -->
     <div class="col-md-6 mb-0">
-        <label class="form-label">Link</label>
-        <input type="url" class="form-control" placeholder="Link" wire:model='link' />
-        <x-error-message field="link"></x-error-message>
+        <label class="form-label">Position</label>
+        <input type="text" class="form-control" placeholder="Position" wire:model='position' />
+        <x-error-message field="position"></x-error-message>
     </div>
 
     <!-- IMAGE -->
-    <div class="col-md-6 mb-0 mt-2">
+    <div class="col-md-12 mb-0 mt-2">
         <label class="form-label">Image</label>
         <input type="file" class="form-control" wire:model='image' />
         <x-error-message field="image"></x-error-message>
     </div>
 
-    <!-- CATEGORY -->
-    <div class="col-md-6 mb-0 mt-2">
-        <label class="form-label">Category</label>
-        <select class="form-control" wire:model='category_id'>
-            <option value="">Select Category</option>
-            @if (count($categories) > 0)
-                @foreach ($categories as $category)
-                    <option value="{{ $category->id }}" wire:key="category-{{ $category->id }}">{{ $category->name }}
-                    </option>
-                @endforeach
-            @endif
-        </select>
-        <x-error-message field="category_id"></x-error-message>
-    </div>
 
     @if ($image)
         <div class="my-4">

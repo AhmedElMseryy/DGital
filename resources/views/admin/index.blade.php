@@ -12,7 +12,8 @@
                     <div class="d-flex align-items-end row">
                         <div class="col-sm-7">
                             <div class="card-body">
-                                <h5 class="card-title text-primary">Congratulations John! 🎉</h5>
+                                <h5 class="card-title text-primary">Congratulations {{ Auth::guard('admin')->user()->name }}!
+                                    🎉</h5>
                                 <p class="mb-4">
                                     You have done <span class="fw-bold">72%</span> more sales today.
                                     Check your new badge in
@@ -446,8 +447,8 @@
                             </li>
                             <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                    <img src="{{ asset('admin-assets') }}/img/icons/unicons/cc-success.png" alt="User"
-                                        class="rounded" />
+                                    <img src="{{ asset('admin-assets') }}/img/icons/unicons/cc-success.png"
+                                        alt="User" class="rounded" />
                                 </div>
                                 <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                     <div class="me-2">

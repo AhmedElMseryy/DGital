@@ -129,6 +129,14 @@
                 </a>
             </li>
 
+            <!-- Testimonials -->
+            <li class="menu-item @yield('testimonials-active')">
+                <a href="{{ route('admin.testimonials') }}" class="menu-link">
+                    <i class="menu-icon tf-icons bx bx-comment-detail"></i>
+                    <div data-i18n="Analytics">Testimonials</div>
+                </a>
+            </li>
+
 
         </ul>
     </aside>
