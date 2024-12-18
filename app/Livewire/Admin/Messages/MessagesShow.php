@@ -23,6 +23,11 @@ class MessagesShow extends Component
 
         #show show modal
         $this->dispatch('showModalToggle');
+
+        // change status to 1
+        $record->update(['status' => '1']);
+        // refresh parent component
+        $this->dispatch('refreshData')->to(MessagesData::class);
     }
 
     #-------------------------------------------------
